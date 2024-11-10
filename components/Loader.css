@@ -1,0 +1,68 @@
+.loader {
+    height: 100vh;
+    width: 100%;
+    background: #000;
+    position: fixed;
+    z-index: 99;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+  .yellow1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #f5e41b;
+    z-index: 8;
+  }
+  
+  .yellow2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #f5e41b;
+    z-index: 7;
+  }
+  
+  .loader video {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 6;
+    object-fit: cover;
+  }
+  
+  .loader h1 {
+    font-size: 6.9vw;
+    line-height: 5vw;
+    letter-spacing: -3px;
+    position: relative;
+    z-index: 9;
+    font-weight: 100;
+    color: white;
+  }
+  
+  .main {
+    background: #000;
+  }
+  
+  .page1 {
+    height: 100vh;
+    width: 100vw;
+    background: #f5e41b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .page1 h1 {
+    font-size: 6.9vw;
+    line-height: 5vw;
+    letter-spacing: -3px;
+    font-weight: 100;
+  }
+  

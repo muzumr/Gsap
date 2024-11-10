@@ -1,0 +1,65 @@
+body{
+    font-family: 'Georgia', serif;
+}
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('./landing.jpg') no-repeat center center / cover;
+    z-index: 0;
+  }
+  
+  .menu-bar.open {
+    transform: rotate(45deg);
+  }
+  
+  .horizontal-nav.active {
+    top: 2%;
+  }
+  .content p::after {
+    content: '';
+    display: block;
+    width: 13%;
+    height: 2px;
+    background: #2e0fe0;
+    margin: 10px auto 0;
+    position: absolute;
+    left: 2%;
+    bottom: 73%;
+
+}
+.footer span::after {
+    content: '';
+    display: block;
+    width: 2%;
+    height: 2px;
+    background: #4a1ee5;
+    margin: 10px auto 0;
+    position: absolute;
+    left: 5.9%;
+    bottom: 44%;
+
+}
+.footer a {
+    color: #ff4081;
+    text-decoration: none;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.scroll-down {
+    font-size: 1rem;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    color: #fff;
+}
